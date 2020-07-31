@@ -74,4 +74,4 @@ The topic at hand is extremely complicated and many simplifications and restrict
 While the above represent extensions of the existing goal, further exploration could be done on the text data using more advanced NLP methods to try to predict some of the metadata features collected. Ex: can we tell whether a bill was writen by a Democrat or a Republican. 
 
 ## 7. Use
-All of the notebooks are available to for download. While citation is not necessary, I would be interested to hear about any extensions or uses of this project (project links may be sent to gabriel.yawin@gmail.com)
+All of the notebooks are available to for download. While citation is not necessary, I would be interested to hear about any extensions or uses of this project (project links may be sent to gabriel.yawin@gmail.com).
