@@ -75,3 +75,5 @@ While the above represent extensions of the existing goal, further exploration c
 
 ## 7. Use
 All of the notebooks are available to for download. While citation is not necessary, I would be interested to hear about any extensions or uses of this project (project links may be sent to gabriel.yawin@gmail.com).
+
+~
