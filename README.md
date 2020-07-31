@@ -54,10 +54,10 @@ The modeling process has been split into four sections such that each stage of t
 
 In two of these four stages the number of positive cases is extremely small, while in the other two stages the positive case is heavily favored. Therefore, the models will be evaluated using the F1 score to maximize the number of true positive cases identified while minimizing the number of false positives. 
 
-For each stage, a Logistic Regressor, Gradient Boost Machine, and Neural Net was trained on both the numeric data and the vectorized text data (title and subtitle of the bills). Hyperparamter tuning was performed to optimize the dimension of the textual data through PCA, the number of estimators in the Gradient Boosting Machine, and the number of neurons and layers in the Neural Net. This tuning revealed that the Gradient Boosting Classifier achieved the best overall performance and the least degree of overfitting. However, a final ensemble model was created by averaging the predicted probabilities of each classifier together. This resulted in a model with even higher performance and a comparable degree of overfitting. Therefore, this model was selected as the final product.
+For each stage, a Logistic Regressor, Gradient Boost Machine, and Neural Net was trained on both the numeric data and the vectorized text data (title and subtitle of the bills). Hyperparamter tuning was performed to optimize the dimension of the textual data through PCA, the number of estimators in the Gradient Boosting Machine, and the number of neurons and layers in the Neural Net. This tuning revealed that the Gradient Boosting Classifier achieved the best overall performance and the least degree of overfitting. Two final ensemble models were created by [1] averaging the predictions of the three models together and [2] fitting a decision tree to the predictions of the three models. Both of these approaches resulted in a model with decent performance, but neither was as successful as the Gradient Boosting Classifier.
 
 ## 5. Final Performance
-![table of metrics]()
+![table of metrics](./README_files/metrics.png)
 
 
 ![stage1](./README_files/stage1.png)
